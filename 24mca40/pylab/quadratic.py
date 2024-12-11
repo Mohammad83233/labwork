@@ -1,0 +1,10 @@
+import cmath
+print("quadratic equation solver :ax^2+bx+c=0")
+a=float(input("enter coefficient of x^2(a): "))
+b=float(input("enter coefficient of x(b): "))
+c=float(input("enter constant value(c): "))
+d=(b**2)-(4*a*c)
+sol1=(-b-cmath.sqrt(d))/(2*a)
+sol2=(-b+cmath.sqrt(d))/(2*a)
+print(f"solution 1:{sol1}")
+print(f"solution 2:{sol2}")
